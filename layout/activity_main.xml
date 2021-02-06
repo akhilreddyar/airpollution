@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tpcelogo"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:background="#66DAEC"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Air Pollution Monitoring"
+        android:textColor="#FFFFFF"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="6"
+    android:orientation="vertical"
+    android:layout_height="0dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:clickable="false"
+            android:textColor="#2C2C2C"
+            android:text="Carbon Monoxide:"
+
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#F30B49"
+            android:id="@+id/carbon_monoxide"
+            android:text="0000/hgg"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="Humidty:"
+            android:textStyle="bold"
+            android:textColor="#2C2C2C"
+            android:textSize="37sp"
+            android:clickable="false"
+
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="sample"
+            android:textStyle="bold"
+            android:id="@+id/humidity"
+            android:textColor="#F30B49"
+android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="Temperature"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#2C2C2C"
+            android:clickable="false"
+            android:textSize="39sp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="xxx c"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FF050E"
+            android:id="@+id/temperature"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Reload"
+        android:id="@+id/reload"
+        android:layout_gravity="center"
+        android:background="#70A7D3"
+        android:textSize="40sp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_gravity="right"
+        android:text="Designed &amp; devloped by Anvesh"
+        android:layout_height="0dp"/>
+
+</LinearLayout>
